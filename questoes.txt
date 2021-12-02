@@ -1,0 +1,32 @@
+EMARKET
+
+1. Crie uma view que mostre o codigo do cliente, o nome do cliente, o total que ele gastou (campo transporte tabela faturas) e
+a classificação dos clientes de acordo com o quanto eles gastaram:
+	- se gastou acima de 3500 reais, então classificação "Categoria A"
+	- se gastou abaixo de 1000 reais, então classificação "Categoria C"
+	- algo diferente disso, então classificação "Categoria B"
+	
+Ordene os resultados por categoria
+	
+2. Crie uma view que mostre o nome, sobrenome e data de nascimento dos empregados que mais venderam. Os resultados devem
+ser exibidos em ordem decrescente da quantidade de venda.
+
+3. Crie uma view que mostre o nome e a categoria dos produtos mais vendidos (count).
+
+4. Crie uma view que retorne todos os produtos, quer eles tenham categoria ou não. Retornar também os produtos que tenham ou
+não sido vendidos
+
+5. Crie uma view que mostre a quantidade de funcionários de acordo com a região. Devem ser exibidos:
+	- quantidade de funcionarios na região
+	- nome da região
+
+6. Crie uma view que liste os funcionários de acordo com a região e a localização. Mostre o nome da localizacao, nome da regiao,
+nome e sobrenome do funcionario. Ordene os resultados por regiao em ordem crescente, depois por localizacao em ordem decrescente.
+
+
+7. Crie uma view que liste todos os produtos cujo preco unitario esteja abaixo do preco unitario medio.
+Devem ser retornadas as colunas:
+	- nome do produto
+	- categoria do produto
+	- preco unitario
+	- preco unitario com acréscimo de 10% (ex.: preco unitario: 5,20 acrescento 10% = 5,72
